@@ -1,0 +1,35 @@
+{
+    "particles":{
+        "number":{
+            "value":80
+        },
+        "color":{
+            "value":"#000000",
+            "random":true
+        },
+        "shape":{
+            "type":"triangle",
+            "stroke":{
+                "width":3,
+                "color":"#ffffff",
+                "random":true
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random":true
+        },
+        "size":{
+            "value":3
+        },
+        "line_linked":{
+            "enable":true,
+            "distance":130
+        },
+        "move":{
+            "enable":true,
+            "speed": 1,
+            "random":true
+        }
+    }
+}
