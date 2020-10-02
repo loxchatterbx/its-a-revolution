@@ -69,7 +69,7 @@ h2{
     width: 100%;
 }
 
-  a, h1, h2{
+a, h1, h2{
     animation: color-change 4.5s infinite;
   }
   
