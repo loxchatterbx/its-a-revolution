@@ -69,24 +69,6 @@ h2{
     width: 100%;
 }
 
-a, h1, h2{
-    animation: color-change 4.5s infinite;
-  }
-  
-  @keyframes color-change {
-    0% { color: crimson; }
-    10% { color: magenta; }
-    20% { color: aquamarine; }
-    30% { color: darkcyan; }
-    40% { color: blue; }
-    50% { color: orangered; }
-    60% { color: greenyellow; }
-    70% { color: forestgreen; }
-    80% { color: darkgoldenrod; }
-    90% { color: gold; }
-    100% { color: red; }
-  }
-
   a, h1, h2{
     animation: color-change 4.5s infinite;
   }
@@ -170,10 +152,10 @@ a, h1, h2{
     float: right;
 }
 
-.altyazı-stili {
+.altyazı-stil {
     color: greenyellow!important;
     text-shadow: 0 0 1em greenyellow!important;
     font-weight: 700!important;
-    color: #fff!important;
+    color: greenyellow!important;
     background: url(hack.gif);
 }
