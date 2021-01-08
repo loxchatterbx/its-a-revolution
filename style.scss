@@ -1,0 +1,78 @@
+@import "normalize";
+
+$primaryBackground: #191919;
+$secondaryBackground: #000;
+
+%primary-bg { background: $primaryBackground; }
+%secondary-bg { background: $secondaryBackground; }
+
+body {
+    @extend %primary-bg;
+    font-family: 'Fira Code', monospace;
+    color: #fff;
+}
+
+.lead {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #7878ff;
+
+    &:hover {
+        color: #a6a6ff;
+    }
+}
+
+.birdy {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    font-size: 21px;
+}
+
+.home {
+    @import "home";
+}
+
+.release {
+    @import "release";
+}
+
+.section {
+    text-align: center;
+    padding: 40px 20px;
+
+    > h2 {
+        margin-top: 0;
+    }
+
+    > div {
+        margin: 0 auto;
+        max-width: 800px;
+        text-align: initial;
+        overflow-x: hidden;
+    }
+
+    &:nth-child(even), &.footer {
+        @extend %secondary-bg;
+    }
+}
+
+.section-more {
+    > a {
+        margin-top: 23px;
+        display: inline-block;
+    }
+}
+
+.info {
+    font-size: 24px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
